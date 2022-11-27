@@ -21,12 +21,12 @@ function App() {
         
         <div className='timer-container'>
           <h1>FIRST TIMER</h1>
-          <Timer time={10} step={1000} decrement={1} autostart />
+          <Timer time={10000} step={1000}  autostart />
         </div>
 
         <div className='timer-container'>
           <h1>SECOND TIMER</h1>
-          <Timer time={20} step={2000} decrement={2} />
+          <Timer time={20000} step={2000}  />
         </div>
         
       </div>
